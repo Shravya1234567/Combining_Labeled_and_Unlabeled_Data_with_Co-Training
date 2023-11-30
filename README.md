@@ -1,1 +1,16 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/Zksn1waN)
+- The requirements for the project are listed in the requirements.txt file.
+- They could be installed using the following command:
+
+```bash
+pip install -r requirements.txt
+```
+- The nltk package is used for the wordnet lemmatizer.
+- The following commands are used to download the required packages:
+
+```bash
+import nltk
+nltk.download('punkt')
+nltk.download('wordnet')
+nltk.download('averaged_perceptron_tagger')
+nltk.download('stopwords')
+```
